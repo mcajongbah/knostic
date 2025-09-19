@@ -49,6 +49,10 @@ class ApiService {
     const response = await fetch(`${API_BASE_URL}/api/upload`, {
       method: "POST",
       body: formData,
+      headers: {
+        "Content-Type": "multipart/form-data",
+        "Access-Control-Allow-Origin": "*",
+      },
     });
 
     return this.handleResponse<UploadResponse>(response);
