@@ -1,0 +1,34 @@
+#Compiled output
+node_modules/
+dist/
+
+#env files
+*.*.env
+*.env
+.env
+
+#misc
+**/.DS_Store
+**/.idea
+**/.xml
+**/package-lock.json
+
+# Log files
+*.log
+
+# Nestjs Repl History
+**/.nest-repl-history
+
+# Redis data
+**/dump.rdb
+redis/
+
+# Docker Compose
+docker-compose.yml
+
+.react-emails/
+apps/mail-templates/out/
+
+#nextjs
+.next/
+

@@ -1,0 +1,4 @@
+Tier,Industry,Topic,Subtopic,Prefix,Fuzzing-Idx,Prompt,Risks,Keywords
+1,Software,Tech,AI,PRE,1,Test prompt for AI,Low risk,artificial intelligence
+2,FinTech,Finance,Banking,FIN,2,Banking security prompt,Medium risk,financial security
+3,MedTech,Healthcare,Diagnostics,MED,3,Medical diagnosis prompt,High risk,medical diagnosis
